@@ -40,7 +40,7 @@ lastUpdated: "2026-03-24"
 
 | # | Blocker | Impact | Status |
 |---|---------|--------|--------|
-| 8 | [**Reddit API credentials**]({{< ref "blockers/reddit-api-credentials" >}}) | Blocks automated posting | PENDING APPROVAL |
+| 8 | [**Reddit API credentials**]({{< ref "blockers/reddit-api-credentials" >}}) | Blocks automated posting | REJECTED |
 
 ## Priority 3 — GSC / SEO
 
