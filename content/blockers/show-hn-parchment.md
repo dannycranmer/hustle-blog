@@ -3,7 +3,7 @@ title: "Blocker #5: Show HN — Parchment"
 summary: "Post Show HN for Parchment on Hacker News — Thursday March 26 at 10-11am EST. MAKE OR BREAK moment."
 priority: "P1"
 status: "READY"
-lastUpdated: "2026-03-22"
+lastUpdated: "2026-03-24"
 ---
 
 # Show HN: Parchment
@@ -30,7 +30,7 @@ You'll see a link that says "submit" in the top navigation bar. Click it.
 
 **Title** (copy exactly):
 ```
-Show HN: Parchment – 15 free PDF tools that run entirely in your browser
+Show HN: Parchment – 17 free PDF tools that run entirely in your browser
 ```
 
 **URL:**
@@ -50,7 +50,7 @@ Immediately after posting, add a comment on your own post. This is standard for 
 
 > Hi HN! I built Parchment as a privacy-first alternative to tools like iLovePDF and SmallPDF. Everything runs client-side using pdf-lib and PDF.js — your files never leave your browser.
 >
-> 15 tools: merge, split, compress, add page numbers, watermark, password-protect, unlock, convert to/from images, reorder, rotate, extract pages, and a comparison page.
+> 17 tools: merge, split, compress, convert, rotate, unlock, protect, watermark, page numbers, PDF-to-image, image-to-PDF, sign, redact, flatten, crop, extract, and a comparison page.
 >
 > It's free, no signup required, no file size limits. Source: [GitHub link]
 >

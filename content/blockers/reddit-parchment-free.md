@@ -3,12 +3,12 @@ title: "Blocker #4: Post Parchment to r/free"
 summary: "Post draft-22 to Reddit's r/free subreddit on Wednesday March 25"
 priority: "P1"
 status: "READY"
-lastUpdated: "2026-03-22"
+lastUpdated: "2026-03-24"
 ---
 
 # Post Parchment to r/free
 
-**Why this matters:** r/free loves genuinely free tools with no catch. Parchment is exactly that — 15 PDF tools, no signup, no uploads, no limits. This subreddit is a great fit.
+**Why this matters:** r/free loves genuinely free tools with no catch. Parchment is exactly that — 17 PDF tools, no signup, no uploads, no limits. This subreddit is a great fit.
 
 **When:** Wednesday March 25, afternoon EST
 
@@ -33,14 +33,14 @@ Click "Create Post", select "Text" post type.
 ### Step 4: Copy-paste this title
 
 ```
-I built 15 free PDF tools that run entirely in your browser — merge, split, compress, watermark, and more. No signup, no uploads.
+I built 17 free PDF tools that run entirely in your browser — merge, split, compress, watermark, and more. No signup, no uploads.
 ```
 
 ### Step 5: Get the post body
 
 The draft is in the hustle repo under `data/growth-drafts/draft-22-reddit-parchment-free.md`.
 
-The post lists all 15 tools, explains the privacy angle (everything runs in your browser, files never leave your device), and links to https://parchpdf.com.
+The post lists all 17 tools, explains the privacy angle (everything runs in your browser, files never leave your device), and links to https://parchpdf.com.
 
 ### Step 6: Submit and monitor
 

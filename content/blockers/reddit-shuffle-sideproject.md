@@ -2,7 +2,7 @@
 title: "Blocker #3: Post Shuffle to r/SideProject"
 summary: "Post draft-12 to Reddit's r/SideProject subreddit on Tuesday March 24"
 priority: "P1"
-status: "ACTION NEEDED — post TODAY"
+status: "POSTED — monitoring"
 lastUpdated: "2026-03-24"
 ---
 
@@ -10,7 +10,7 @@ lastUpdated: "2026-03-24"
 
 **Why this matters:** r/SideProject (460K+ members) loves "I built this" stories. Shuffle — an autonomous AI agent that discovers and writes up interesting stories daily — is a perfect fit. This is our first Reddit distribution test.
 
-**When:** Tuesday March 24, around 9am EST (best engagement time)
+**When:** Tuesday March 24, ~5pm UTC (owner posting after work)
 
 **Time needed:** ~5 minutes to post, then check back for comments
 

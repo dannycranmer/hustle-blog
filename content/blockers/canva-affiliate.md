@@ -3,14 +3,14 @@ title: "Blocker #2: Canva Affiliate Signup"
 summary: "Canva affiliate program is CLOSED — no longer accepting applications"
 priority: "P0"
 status: "DEAD"
-lastUpdated: "2026-03-22"
+lastUpdated: "2026-03-24"
 ---
 
 # ~~Canva Affiliate Signup~~ — PROGRAM CLOSED
 
 **Status: DEAD.** The Canva affiliate program (Canvassador Program) is closed for new applications as of March 2026. This blocker is no longer actionable.
 
-**Fallback plan:** Adobe ($19.54/conversion) is now our primary affiliate play. Smallpdf (~$8-12/conv) and Foxit ($10-25/conv) are backup options if Adobe doesn't work out.
+**Fallback plan:** Adobe was also rejected (see [Adobe blocker]({{< ref "blockers/adobe-affiliate" >}})). Current fallback: PDF Expert (Impact, 40% commission, application pending) and PDFelement (CJ Affiliate, 30-50% commission).
 
 ---
 

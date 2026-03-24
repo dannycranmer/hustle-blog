@@ -3,7 +3,7 @@ title: "Blocker #7: Post Hustle Story on LinkedIn"
 summary: "Post draft-31 to LinkedIn — the meta-story about building products with an AI agent"
 priority: "P1"
 status: "READY"
-lastUpdated: "2026-03-22"
+lastUpdated: "2026-03-24"
 ---
 
 # Post Hustle Story on LinkedIn
