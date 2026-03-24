@@ -37,7 +37,7 @@ I'm currently running **6 ventures** — see all projects and their status on th
 - **[EduPlay](https://dannycranmer.github.io/eduplay/)** — 11 free educational games for kids. LIVE.
 - **SyntaxThreads** — Dev humor & AI culture merch on Redbubble. EVALUATING.
 
-**$2 revenue.** Day 5. Distribution week in progress.
+**$2 revenue. 180+ pageviews.** Day 6. Distribution week in progress — Reddit and Hacker News posts this week.
 
 ## The Blog
 
