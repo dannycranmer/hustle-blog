@@ -38,7 +38,7 @@ Revenue target: $10 by March 29. Every post carries a conversion CTA. Key initia
 | Channel | Score | Status | Notes |
 |---------|-------|--------|-------|
 | SEO | 7.2 | INVEST | #1 — JWT(10), Base64(7), Regex(5) real organic. Compounding. |
-| Mastodon | 6.8 | ACTIVE | 7 followers, 15+ engagers. Adobe comparison + Shuffle reblogged. |
+| Mastodon | 7.0 | ACTIVE | 9 followers, 15+ engagers. Adobe comparison + Shuffle reblogged. |
 | Bluesky | 5.0 | REINSTATED | 2 followers, 12 posts, 6 likes on best post. Profile updated, 18 following. |
 | Directories | 6.2 | ACTIVE | 2 PRs open (awesome-privacy, awesome-free-software) |
 | Reddit | 5.2 | PRIORITY | 5 drafts ready (3 tool + 2 EduPlay). Owner posts manually (API rejected). |
@@ -48,11 +48,12 @@ Revenue target: $10 by March 29. Every post carries a conversion CTA. Key initia
 
 ## What's Working
 
-- **Traffic at 167 total pageviews** — up 117% from pre-Distribution Week baseline of 77
-- **Parchment leading** — 56 views, strongest traffic of any venture
+- **Traffic at 169 total pageviews** — up 119% from pre-Distribution Week baseline of 77
+- **Parchment leading** — 57 views, strongest traffic of any venture
 - **PicBrew surging** — 47 views, had an 11-views-in-1-hour spike at 01:00 UTC on 3/24
-- **DevBrew organic** — 43 views, JWT decoder alone pulling 5 views today
+- **DevBrew organic** — 44 views, JWT decoder pulling 5 views consistently
 - **Shuffle growing** — 21 views, reblog by @ai@newsmast.community expanding reach
+- **Mastodon accelerating** — 9 followers (up from 7), 2 new followers today
 - **Distribution pipeline confirmed** — Dev.to articles + Mastodon/Bluesky posts drive measurable traffic spikes
 - **Utility-first content** outperforms privacy-first pitches 14:1 on Dev.to
 - **Organic SEO compounding** — tool pages pulling traffic without active promotion
@@ -93,10 +94,10 @@ Revenue target: $10 by March 29. Every post carries a conversion CTA. Key initia
 
 | Venture | URL | Traffic | Status |
 |---------|-----|---------|--------|
-| DevBrew | devbrew.org | 43 views | 28 tools, HTTPS, BMC banner |
-| Parchment | parchpdf.com | 56 views | 17 tools, HTTPS, comparison page live |
+| DevBrew | devbrew.org | 44 views | 28 tools, HTTPS, BMC banner |
+| Parchment | parchpdf.com | 57 views | 17 tools, HTTPS, comparison page live |
 | PicBrew | picbrew.org | 47 views | 17 tools, HTTPS, BMC banner |
-| Shuffle | shuffle-news.netlify.app | 21 views | Daily stories, social launch today |
+| Shuffle | shuffle-news.netlify.app | 21 views | Daily stories, Mastodon reblogged |
 | EduPlay | dannycranmer.github.io/eduplay | NEW | 11 games, just launched |
 | SyntaxThreads | redbubble.com/people/SyntaxThreads | NEW | 16 designs, store live |
 
@@ -106,7 +107,7 @@ Revenue target: $10 by March 29. Every post carries a conversion CTA. Key initia
 |--------|---------|--------|----------|
 | Revenue | $2.00 | $10.00 | Sun 3/29 |
 | Dev.to articles | 8 | 10 | Fri 3/28 |
-| Total traffic (all sites) | 167 | 200 | Sun 3/29 |
+| Total traffic (all sites) | 169 | 200 | Sun 3/29 |
 | Active platforms | 3 (+ 3 prepped) | 4+ | Thu 3/27 |
 | EduPlay launch posts | 0 | 4 | Sun 3/31 |
 | SyntaxThreads posts | 1 | 4 | Sun 3/31 |
