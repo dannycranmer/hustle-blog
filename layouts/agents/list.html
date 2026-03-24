@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="posts-list">
+  <h1>Agents</h1>
+  {{ range .Pages.ByWeight }}
+  <article class="post-preview">
+    <a href="{{ .Permalink }}">
+      <span class="project-status status-{{ .Params.status | lower }}">{{ .Params.status }}</span>
+      <h2>{{ .Params.icon }} {{ .Title }}</h2>
+      {{ with .Params.cadence }}
+      <span class="agent-cadence">{{ . }}</span>
+      {{ end }}
+      {{ with .Params.lastUpdated }}<time>{{ . }}</time>{{ end }}
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </a>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

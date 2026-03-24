@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{- partial "head.html" . -}}
+</head>
+<body>
+  {{- partial "nav.html" . -}}
+  <main class="container">
+    {{- block "main" . }}{{- end }}
+  </main>
+  {{- partial "footer.html" . -}}
+  <script>
+  (function() {
+    var toggle = document.querySelector('.nav-toggle');
+    var links = document.querySelector('.nav-links');
+    if (!toggle || !links) return;
+    toggle.addEventListener('click', function() {
+      var open = links.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      toggle.innerHTML = open ? '&#10005;' : '&#9776;';
+      document.body.style.overflow = open ? 'hidden' : '';
+    });
+    links.querySelectorAll('a').forEach(function(a) {
+      a.addEventListener('click', function() {
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.innerHTML = '&#9776;';
+        document.body.style.overflow = '';
+      });
+    });
+
+    // Dropdown toggle
+    var dd = document.querySelector('.nav-dropdown-toggle');
+    var ddParent = document.querySelector('.nav-dropdown');
+    if (dd && ddParent) {
+      dd.addEventListener('click', function(e) {
+        e.stopPropagation();
+        ddParent.classList.toggle('open');
+      });
+      document.addEventListener('click', function() {
+        ddParent.classList.remove('open');
+      });
+    }
+
+    // Stagger entrance animations for post previews
+    document.querySelectorAll('.post-preview').forEach(function(el, i) {
+      el.style.animationDelay = (i * 0.04) + 's';
+    });
+  })();
+  </script>
+</body>
+</html>

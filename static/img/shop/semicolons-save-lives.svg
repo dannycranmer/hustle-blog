@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <filter id="heavyShadow">
+      <feDropShadow dx="3" dy="3" stdDeviation="4" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+  <!-- Bold red background -->
+  <rect width="600" height="600" fill="#cc0000" rx="20"/>
+  <!-- Diagonal warning stripes at top and bottom -->
+  <clipPath id="topStripe"><rect x="0" y="0" width="600" height="50" rx="20"/></clipPath>
+  <clipPath id="bottomStripe"><rect x="0" y="550" width="600" height="50" rx="20"/></clipPath>
+  <g clip-path="url(#topStripe)">
+    <rect x="-50" y="0" width="700" height="50" fill="#111"/>
+    <g>
+      <line x1="-20" y1="50" x2="30" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="30" y1="50" x2="80" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="80" y1="50" x2="130" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="130" y1="50" x2="180" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="180" y1="50" x2="230" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="230" y1="50" x2="280" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="280" y1="50" x2="330" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="330" y1="50" x2="380" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="380" y1="50" x2="430" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="430" y1="50" x2="480" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="480" y1="50" x2="530" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="530" y1="50" x2="580" y2="0" stroke="#febc2e" stroke-width="14"/>
+      <line x1="580" y1="50" x2="630" y2="0" stroke="#febc2e" stroke-width="14"/>
+    </g>
+  </g>
+  <g clip-path="url(#bottomStripe)">
+    <rect x="-50" y="550" width="700" height="50" fill="#111"/>
+    <g>
+      <line x1="-20" y1="600" x2="30" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="30" y1="600" x2="80" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="80" y1="600" x2="130" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="130" y1="600" x2="180" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="180" y1="600" x2="230" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="230" y1="600" x2="280" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="280" y1="600" x2="330" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="330" y1="600" x2="380" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="380" y1="600" x2="430" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="430" y1="600" x2="480" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="480" y1="600" x2="530" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="530" y1="600" x2="580" y2="550" stroke="#febc2e" stroke-width="14"/>
+      <line x1="580" y1="600" x2="630" y2="550" stroke="#febc2e" stroke-width="14"/>
+    </g>
+  </g>
+  <!-- White panel -->
+  <rect x="50" y="70" width="500" height="460" fill="#fff" rx="10" filter="url(#heavyShadow)"/>
+  <!-- Giant semicolon -->
+  <text x="300" y="310" font-family="'Courier New','Consolas',monospace" font-size="260" font-weight="bold" fill="#cc0000" text-anchor="middle" filter="url(#heavyShadow)">;</text>
+  <!-- PSA Header -->
+  <text x="300" y="110" font-family="'Impact','Arial Black',sans-serif" font-size="22" fill="#cc0000" text-anchor="middle" letter-spacing="8" font-weight="bold">&#x26A0; PUBLIC SERVICE ANNOUNCEMENT &#x26A0;</text>
+  <!-- Main text -->
+  <text x="300" y="430" font-family="'Impact','Arial Black',sans-serif" font-size="52" fill="#111" text-anchor="middle" font-weight="bold" letter-spacing="3">SEMICOLONS</text>
+  <text x="300" y="490" font-family="'Impact','Arial Black',sans-serif" font-size="52" fill="#cc0000" text-anchor="middle" font-weight="bold" letter-spacing="3">SAVE LIVES</text>
+</svg>

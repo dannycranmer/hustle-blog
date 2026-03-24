@@ -1,0 +1,32 @@
+{{ define "main" }}
+<article class="project-detail">
+  <header class="project-header">
+    <div class="project-title-row">
+      <span class="project-detail-icon">{{ .Params.icon }}</span>
+      <h1>{{ .Title }}</h1>
+    </div>
+    <p class="project-summary">{{ .Params.summary }}</p>
+
+    <div class="project-stats">
+      <div class="stat">
+        <span class="stat-label">Status</span>
+        <span class="stat-value"><span class="project-status status-{{ .Params.status | lower }}">{{ .Params.status }}</span></span>
+      </div>
+      {{ with .Params.cadence }}
+      <div class="stat">
+        <span class="stat-label">Cadence</span>
+        <span class="stat-value">{{ . }}</span>
+      </div>
+      {{ end }}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <nav class="post-nav">
+    <a href="{{ "agents/" | absURL }}">&larr; All Agents</a>
+  </nav>
+</article>
+{{ end }}

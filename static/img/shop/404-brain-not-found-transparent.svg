@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 5000" width="5000" height="5000">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Transparent background -->
+  <!-- Giant 404 -->
+  <text x="2500" y="2000" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="1400" font-weight="900" fill="#e94560" text-anchor="middle" filter="url(#glow)">404</text>
+  <!-- Brain Not Found -->
+  <text x="2500" y="2750" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="480" font-weight="900" fill="#ffffff" text-anchor="middle">BRAIN</text>
+  <text x="2500" y="3300" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="480" font-weight="900" fill="#ffffff" text-anchor="middle">NOT FOUND</text>
+  <!-- Error message style -->
+  <text x="2500" y="3750" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#888" text-anchor="middle">Error: the requested resource has been</text>
+  <text x="2500" y="3950" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#888" text-anchor="middle">depleted by mass meetings</text>
+  <!-- {SyntaxThreads} logo -->
+  <text x="1280" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">{</text>
+  <text x="1510" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#e5e5e5">Syntax</text>
+  <text x="2410" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">Threads</text>
+  <text x="3460" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">}</text>
+</svg>

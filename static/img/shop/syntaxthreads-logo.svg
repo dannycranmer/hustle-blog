@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 4500" width="4500" height="4500">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="20" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+  </defs>
+  <!-- Dark background -->
+  <rect width="4500" height="4500" fill="url(#bgGrad)" rx="80"/>
+  <!-- Subtle grid lines -->
+  <line x1="0" y1="1125" x2="4500" y2="1125" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="0" y1="2250" x2="4500" y2="2250" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="0" y1="3375" x2="4500" y2="3375" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="1125" y1="0" x2="1125" y2="4500" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="2250" y1="0" x2="2250" y2="4500" stroke="#1a1a1a" stroke-width="3"/>
+  <line x1="3375" y1="0" x2="3375" y2="4500" stroke="#1a1a1a" stroke-width="3"/>
+  <!-- Opening brace -->
+  <text x="420" y="2500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="900" font-weight="800" fill="#00ff41" filter="url(#glow)">{</text>
+  <!-- Brand name -->
+  <text x="950" y="2150" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="510" font-weight="800" fill="#e5e5e5" letter-spacing="-15">Syntax</text>
+  <text x="950" y="2750" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="510" font-weight="800" fill="#e5e5e5" letter-spacing="-15">Threads</text>
+  <!-- Closing brace -->
+  <text x="3700" y="2500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="900" font-weight="800" fill="#00ff41" filter="url(#glow)">}</text>
+  <!-- Tagline -->
+  <text x="2250" y="3350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="135" fill="#666" text-anchor="middle">dev humor you can wear</text>
+  <!-- Decorative cursor -->
+  <rect x="2245" y="3450" width="15" height="120" fill="#00ff41" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0;0.5" dur="1.2s" repeatCount="indefinite"/>
+  </rect>
+</svg>

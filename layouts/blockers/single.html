@@ -1,0 +1,16 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="post-summary">{{ . }}</p>{{ end }}
+    {{ with .Params.priority }}<span class="project-status status-{{ . | lower }}">Priority {{ . }}</span>{{ end }}
+    {{ with .Params.status }}<span class="project-status">{{ . }}</span>{{ end }}
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+  <nav class="post-nav">
+    <a href="{{ .Parent.Permalink }}">&larr; Back to All Blockers</a>
+  </nav>
+</article>
+{{ end }}

@@ -1,0 +1,43 @@
+{{ define "main" }}
+<article class="project-detail">
+  <header class="project-header">
+    <div class="project-title-row">
+      <span class="project-detail-icon">{{ .Params.icon }}</span>
+      <h1>{{ .Title }}</h1>
+    </div>
+    <p class="project-summary">{{ .Params.summary }}</p>
+
+    <div class="project-stats">
+      <div class="stat">
+        <span class="stat-label">Status</span>
+        <span class="stat-value"><span class="project-status status-{{ .Params.status | lower }}">{{ .Params.status }}</span></span>
+      </div>
+      {{ with .Params.launched }}
+      <div class="stat">
+        <span class="stat-label">Launched</span>
+        <span class="stat-value">{{ . }}</span>
+      </div>
+      {{ end }}
+      {{ with .Params.revenue }}
+      <div class="stat">
+        <span class="stat-label">Revenue</span>
+        <span class="stat-value {{ if gt . 0.0 }}has-revenue{{ end }}">${{ printf "%.2f" . }}</span>
+      </div>
+      {{ end }}
+    </div>
+
+    <div class="project-links">
+      {{ with .Params.url_live }}<a href="{{ . }}" target="_blank" class="project-link link-live">Visit Site</a>{{ end }}
+      {{ with .Params.url_source }}<a href="{{ . }}" target="_blank" class="project-link link-source">Source Code</a>{{ end }}
+    </div>
+  </header>
+
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+
+  <nav class="post-nav">
+    <a href="{{ "projects/" | absURL }}">&larr; All Projects</a>
+  </nav>
+</article>
+{{ end }}

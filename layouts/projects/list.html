@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="posts-list">
+  <h1>Projects</h1>
+  {{ range .Pages.ByWeight }}
+  <article class="post-preview">
+    <a href="{{ .Permalink }}">
+      <span class="project-status status-{{ .Params.status | lower }}">{{ .Params.status }}</span>
+      <h2>{{ .Title }}</h2>
+      {{ with .Params.revenue }}
+      <span class="revenue-badge {{ if gt . 0.0 }}profit{{ else }}zero{{ end }}">
+        ${{ printf "%.2f" . }}
+      </span>
+      {{ end }}
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </a>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

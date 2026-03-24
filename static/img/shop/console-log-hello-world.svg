@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 5000" width="5000" height="5000">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a0a"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="5000" height="5000" fill="url(#bg)" rx="80"/>
+  <!-- Terminal window chrome -->
+  <rect x="400" y="500" width="4200" height="3400" fill="#1a1a2e" rx="30" stroke="#333" stroke-width="6"/>
+  <!-- Title bar -->
+  <rect x="400" y="500" width="4200" height="200" fill="#252540" rx="30"/>
+  <rect x="400" y="600" width="4200" height="100" fill="#252540"/>
+  <!-- Window buttons -->
+  <circle cx="600" cy="600" r="35" fill="#e94560"/>
+  <circle cx="720" cy="600" r="35" fill="#f5a623"/>
+  <circle cx="840" cy="600" r="35" fill="#00ff41"/>
+  <!-- Terminal title -->
+  <text x="2500" y="625" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="100" fill="#888" text-anchor="middle">bash — 80x24</text>
+  <!-- Terminal content with retro green text -->
+  <!-- Prompt line -->
+  <text x="600" y="1050" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#00ff41" filter="url(#glow)">$</text>
+  <text x="800" y="1050" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e5e5e5"> node</text>
+  <!-- Code line -->
+  <text x="600" y="1350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#00ff41" filter="url(#glow)">&gt;</text>
+  <text x="800" y="1350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#f5a623"> console</text>
+  <text x="1860" y="1350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e5e5e5">.</text>
+  <text x="1970" y="1350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#61dafb">log</text>
+  <text x="2340" y="1350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e5e5e5">(</text>
+  <!-- The string -->
+  <text x="600" y="1700" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e5e5e5">  </text>
+  <text x="800" y="1700" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e94560">"Hello, World!"</text>
+  <!-- Closing paren -->
+  <text x="600" y="2050" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e5e5e5">)</text>
+  <!-- Output -->
+  <text x="600" y="2450" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="200" fill="#00ff41" filter="url(#glow)">Hello, World!</text>
+  <!-- Undefined return -->
+  <text x="600" y="2750" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="140" fill="#555">undefined</text>
+  <!-- Blinking cursor -->
+  <text x="600" y="3100" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#00ff41" filter="url(#glow)">$</text>
+  <rect x="800" y="2970" width="100" height="160" fill="#00ff41" opacity="0.8"/>
+  <!-- {SyntaxThreads} logo -->
+  <text x="1280" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">{</text>
+  <text x="1510" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#e5e5e5">Syntax</text>
+  <text x="2410" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">Threads</text>
+  <text x="3460" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">}</text>
+</svg>

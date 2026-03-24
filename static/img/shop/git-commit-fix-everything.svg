@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5000 5000" width="5000" height="5000">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="5000" height="5000" fill="url(#bg)" rx="80"/>
+  <!-- Subtle grid -->
+  <line x1="0" y1="1250" x2="5000" y2="1250" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="0" y1="2500" x2="5000" y2="2500" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="0" y1="3750" x2="5000" y2="3750" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="1250" y1="0" x2="1250" y2="5000" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="2500" y1="0" x2="2500" y2="5000" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="3750" y1="0" x2="3750" y2="5000" stroke="#1a1a2e" stroke-width="3"/>
+  <!-- Git branch visualization -->
+  <!-- Main branch line -->
+  <line x1="800" y1="600" x2="800" y2="1400" stroke="#555" stroke-width="12"/>
+  <!-- Branch off -->
+  <line x1="800" y1="900" x2="1200" y2="1100" stroke="#e94560" stroke-width="8"/>
+  <line x1="1200" y1="1100" x2="1200" y2="1400" stroke="#e94560" stroke-width="8"/>
+  <!-- Merge back -->
+  <line x1="1200" y1="1400" x2="800" y2="1400" stroke="#e94560" stroke-width="8"/>
+  <!-- Commit dots -->
+  <circle cx="800" cy="600" r="25" fill="#00ff41"/>
+  <circle cx="800" cy="900" r="25" fill="#00ff41"/>
+  <circle cx="1200" cy="1100" r="20" fill="#e94560"/>
+  <circle cx="1200" cy="1400" r="20" fill="#e94560"/>
+  <circle cx="800" cy="1400" r="25" fill="#00ff41"/>
+  <!-- The command -->
+  <text x="2500" y="2150" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="280" fill="#00ff41" text-anchor="middle" filter="url(#glow)">git commit -m</text>
+  <!-- The message in quotes - big and bold -->
+  <text x="2500" y="2800" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="600" font-weight="900" fill="#ffffff" text-anchor="middle">"fix</text>
+  <text x="2500" y="3450" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="600" font-weight="900" fill="#ffffff" text-anchor="middle">everything"</text>
+  <!-- Narrator text -->
+  <text x="2500" y="3900" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="160" fill="#e94560" text-anchor="middle">// narrator: it did not fix everything</text>
+  <!-- {SyntaxThreads} logo -->
+  <text x="1280" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">{</text>
+  <text x="1510" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#e5e5e5">Syntax</text>
+  <text x="2410" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">Threads</text>
+  <text x="3460" y="4500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="250" font-weight="800" fill="#00ff41">}</text>
+</svg>

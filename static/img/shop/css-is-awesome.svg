@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <filter id="shadow">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  <!-- Background - light gray -->
+  <rect width="600" height="600" fill="#f0f0f0" rx="20"/>
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+  </pattern>
+  <rect width="600" height="600" fill="url(#grid)" rx="20"/>
+  <!-- The infamous box -->
+  <rect x="130" y="140" width="340" height="260" fill="#ffffff" stroke="#333333" stroke-width="5" filter="url(#shadow)"/>
+  <!-- CSS property hints in tiny text -->
+  <text x="145" y="165" font-family="'SF Mono','Consolas',monospace" font-size="11" fill="#999">.box &#123;</text>
+  <text x="155" y="180" font-family="'SF Mono','Consolas',monospace" font-size="11" fill="#999">overflow: hidden; <tspan fill="#e94560">/* lol */</tspan></text>
+  <text x="145" y="195" font-family="'SF Mono','Consolas',monospace" font-size="11" fill="#999">&#125;</text>
+  <!-- "CSS" text - fits in box -->
+  <text x="300" y="295" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="72" font-weight="bold" fill="#333" text-anchor="middle">CSS</text>
+  <!-- "is" text - fits in box -->
+  <text x="300" y="345" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="40" fill="#333" text-anchor="middle">is</text>
+  <!-- "awesome" text - OVERFLOWS the box! This is the key joke -->
+  <text x="300" y="405" font-family="'Helvetica Neue',Helvetica,Arial,sans-serif" font-size="82" font-weight="bold" fill="#333" text-anchor="middle">awesome</text>
+  <!-- Red overflow indicator arrows -->
+  <line x1="470" y1="375" x2="490" y2="375" stroke="#e94560" stroke-width="2"/>
+  <polygon points="488,370 498,375 488,380" fill="#e94560"/>
+  <line x1="130" y1="375" x2="110" y2="375" stroke="#e94560" stroke-width="2"/>
+  <polygon points="112,370 102,375 112,380" fill="#e94560"/>
+  <!-- Bottom overflow indicator -->
+  <line x1="300" y1="400" x2="300" y2="420" stroke="#e94560" stroke-width="2"/>
+  <polygon points="295,418 300,428 305,418" fill="#e94560"/>
+  <!-- Frustrated comment -->
+  <text x="300" y="510" font-family="'SF Mono','Consolas',monospace" font-size="16" fill="#888" text-anchor="middle">// I've been debugging this for 3 hours</text>
+  <text x="300" y="535" font-family="'SF Mono','Consolas',monospace" font-size="16" fill="#888" text-anchor="middle">// it's a feature not a bug</text>
+  <!-- Mug stain ring for character -->
+  <circle cx="510" cy="530" r="30" fill="none" stroke="#d4c5a9" stroke-width="3" opacity="0.3"/>
+</svg>

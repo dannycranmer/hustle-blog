@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <linearGradient id="termBg2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b2b3d"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <filter id="glow2">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="600" fill="#0d0d1a" rx="20"/>
+  <!-- Terminal window -->
+  <rect x="30" y="40" width="540" height="520" rx="14" fill="url(#termBg2)" stroke="#555" stroke-width="1.5"/>
+  <!-- Title bar -->
+  <rect x="30" y="40" width="540" height="40" rx="14" ry="14" fill="#3c3c4e"/>
+  <rect x="30" y="66" width="540" height="14" fill="#3c3c4e"/>
+  <!-- Traffic lights -->
+  <circle cx="60" cy="60" r="7.5" fill="#ff5f57"/>
+  <circle cx="82" cy="60" r="7.5" fill="#febc2e"/>
+  <circle cx="104" cy="60" r="7.5" fill="#28c840"/>
+  <text x="300" y="66" font-family="'SF Mono','Consolas',monospace" font-size="12" fill="#777" text-anchor="middle">Terminal</text>
+  <!-- Line 1: prompt -->
+  <text x="60" y="130" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="22" fill="#00ff41" filter="url(#glow2)">
+    <tspan fill="#888">user@dev:~$</tspan> make me a sandwich</text>
+  <!-- Line 2: response -->
+  <text x="60" y="175" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="22" fill="#e94560" font-weight="bold" filter="url(#glow2)">What? Make it yourself.</text>
+  <!-- Line 3: sudo -->
+  <text x="60" y="255" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="22" fill="#00ff41" filter="url(#glow2)">
+    <tspan fill="#888">user@dev:~$</tspan>
+    <tspan fill="#febc2e" font-weight="bold"> sudo</tspan> make me a sandwich</text>
+  <!-- Line 4: okay -->
+  <text x="60" y="330" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="42" fill="#00ff41" font-weight="bold" filter="url(#glow2)">Okay.</text>
+  <!-- Sandwich emoji area -->
+  <text x="300" y="440" font-family="Arial,sans-serif" font-size="70" text-anchor="middle">&#x1F96A;</text>
+  <!-- Cursor -->
+  <rect x="60" y="480" width="14" height="24" fill="#00ff41" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0;0.7" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Subtle sudo hint -->
+  <text x="300" y="535" font-family="'SF Mono','Consolas',monospace" font-size="13" fill="#555" text-anchor="middle">with great power comes great sandwiches</text>
+</svg>

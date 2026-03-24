@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 4500" width="4500" height="4500">
+  <defs>
+    <filter id="glitch">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12121e"/>
+      <stop offset="100%" stop-color="#0a0a14"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="4500" height="4500" fill="url(#bg)" rx="80"/>
+  <!-- Subtle circuit lines -->
+  <line x1="0" y1="900" x2="4500" y2="900" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="0" y1="3600" x2="4500" y2="3600" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="900" y1="0" x2="900" y2="4500" stroke="#1a1a2e" stroke-width="3"/>
+  <line x1="3600" y1="0" x2="3600" y2="4500" stroke="#1a1a2e" stroke-width="3"/>
+  <!-- Glitch scan lines -->
+  <rect x="0" y="1310" width="4500" height="10" fill="#e94560" opacity="0.1"/>
+  <rect x="600" y="1325" width="900" height="10" fill="#00ff41" opacity="0.15"/>
+  <rect x="0" y="3185" width="4500" height="10" fill="#e94560" opacity="0.1"/>
+  <!-- Main text -->
+  <text x="2250" y="1650" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="640" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-15">AI STOLE</text>
+  <text x="2250" y="2400" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="640" font-weight="900" fill="#ffffff" text-anchor="middle" letter-spacing="-15">MY JOB</text>
+  <!-- Divider -->
+  <line x1="1125" y1="2660" x2="3375" y2="2660" stroke="#333" stroke-width="6"/>
+  <!-- Subtext -->
+  <text x="2250" y="3110" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="210" fill="#e94560" text-anchor="middle" filter="url(#glitch)">and I mass, kinda deserved it</text>
+  <!-- Crossed out employed / automated -->
+  <text x="2250" y="3530" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="135" fill="#555" text-anchor="middle">
+    <tspan text-decoration="line-through">employed</tspan>
+    <tspan fill="#00ff41"> automated</tspan>
+  </text>
+  <!-- Robot stealing briefcase -->
+  <g transform="translate(2250,4050)" opacity="0.4">
+    <rect x="-112" y="-135" width="225" height="180" rx="30" fill="none" stroke="#e94560" stroke-width="12"/>
+    <circle cx="-38" cy="-60" r="19" fill="#e94560"/>
+    <circle cx="38" cy="-60" r="19" fill="#e94560"/>
+    <line x1="-30" y1="0" x2="30" y2="0" stroke="#e94560" stroke-width="12"/>
+    <line x1="0" y1="-135" x2="0" y2="-195" stroke="#e94560" stroke-width="12"/>
+    <circle cx="0" cy="-210" r="15" fill="#e94560"/>
+    <rect x="165" y="-90" width="135" height="105" rx="15" fill="none" stroke="#00ff41" stroke-width="12"/>
+    <line x1="165" y1="-60" x2="300" y2="-60" stroke="#00ff41" stroke-width="8"/>
+    <rect x="210" y="-105" width="45" height="30" rx="8" fill="none" stroke="#00ff41" stroke-width="8"/>
+  </g>
+  <!-- Branding -->
+  <text x="4250" y="4350" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="110" fill="#00ff41" text-anchor="end" opacity="0.5">{Syntax Threads}</text>
+</svg>

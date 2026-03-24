@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4500 4500" width="4500" height="4500">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- No background - transparent -->
+  <!-- The infamous box - white border, overflowing text -->
+  <rect x="900" y="900" width="2700" height="1800" fill="none" stroke="#e5e5e5" stroke-width="18" rx="12"/>
+  <!-- CSS property hint -->
+  <text x="960" y="1060" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="120" fill="#888">.box { overflow: hidden; }</text>
+  <!-- "CSS" text inside box -->
+  <text x="2250" y="1650" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="640" font-weight="900" fill="#ffffff" text-anchor="middle">CSS</text>
+  <!-- "is" text inside box -->
+  <text x="2250" y="2150" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="360" fill="#ffffff" text-anchor="middle">is</text>
+  <!-- "HARD" text - OVERFLOWS the box! -->
+  <text x="2250" y="2850" font-family="'Helvetica Neue','Arial Black',Arial,sans-serif" font-size="780" font-weight="900" fill="#e94560" text-anchor="middle" filter="url(#glow)">HARD</text>
+  <!-- Overflow arrows -->
+  <line x1="3600" y1="2650" x2="3800" y2="2650" stroke="#e94560" stroke-width="12"/>
+  <polygon points="3780,2620 3830,2650 3780,2680" fill="#e94560"/>
+  <line x1="900" y1="2650" x2="700" y2="2650" stroke="#e94560" stroke-width="12"/>
+  <polygon points="720,2620 670,2650 720,2680" fill="#e94560"/>
+  <line x1="2250" y1="2700" x2="2250" y2="2920" stroke="#e94560" stroke-width="12"/>
+  <polygon points="2210,2900 2250,2960 2290,2900" fill="#e94560"/>
+  <!-- Frustrated dev comments -->
+  <text x="2250" y="3500" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="150" fill="#888" text-anchor="middle">// why won't you just center</text>
+  <text x="2250" y="3750" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="150" fill="#888" text-anchor="middle">// I tried everything</text>
+  <!-- Branding -->
+  <text x="4250" y="4300" font-family="'Source Code Pro','SF Mono','Fira Code',monospace" font-size="110" fill="#00ff41" text-anchor="end" opacity="0.5">{Syntax Threads}</text>
+</svg>

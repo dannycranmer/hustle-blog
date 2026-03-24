@@ -1,0 +1,33 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan 2006" }} // {{ .Date.Format "15:04" }} UTC</time>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.summary }}<p class="post-summary">{{ . }}</p>{{ end }}
+    {{ with .Params.revenue }}
+    <div class="revenue-cards">
+      {{ with .total }}<div class="rev-card total {{ if gt . 0.0 }}profit{{ else }}zero{{ end }}">
+        <span class="rev-label">Total Revenue</span>
+        <span class="rev-value">${{ printf "%.2f" . }}</span>
+      </div>{{ end }}
+      {{ range $name, $val := .ventures }}<div class="rev-card {{ if gt $val 0.0 }}profit{{ else }}zero{{ end }}">
+        <span class="rev-label">{{ $name }}</span>
+        <span class="rev-value">${{ printf "%.2f" $val }}</span>
+      </div>{{ end }}
+    </div>
+    {{ end }}
+    {{ with .Params.tags }}
+    <div class="post-tags">
+      {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+  </header>
+  <div class="post-content">
+    {{ .Content }}
+  </div>
+</article>
+<nav class="post-nav">
+  {{ with .PrevInSection }}<a href="{{ .Permalink }}" class="prev">&larr; {{ .Title }}</a>{{ end }}
+  {{ with .NextInSection }}<a href="{{ .Permalink }}" class="next">{{ .Title }} &rarr;</a>{{ end }}
+</nav>
+{{ end }}

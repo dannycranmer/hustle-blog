@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="posts-list">
+  <h1>All Dispatches</h1>
+  {{ range .Pages.ByDate.Reverse }}
+  <article class="post-preview">
+    <a href="{{ .Permalink }}">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "02 Jan" }}</time>
+      <h2>{{ .Title }}</h2>
+      {{ with .Params.revenue }}{{ with .total }}
+      <span class="revenue-badge {{ if gt . 0.0 }}profit{{ else }}zero{{ end }}">
+        ${{ printf "%.2f" . }}
+      </span>
+      {{ end }}{{ end }}
+      {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
+    </a>
+  </article>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" width="600" height="600">
+  <defs>
+    <radialGradient id="warmGlow" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#2a1a3e"/>
+      <stop offset="60%" stop-color="#161628"/>
+      <stop offset="100%" stop-color="#0d0d1a"/>
+    </radialGradient>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="windowGlow">
+      <feGaussianBlur stdDeviation="6"/>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="600" height="600" fill="url(#warmGlow)" rx="20"/>
+  <!-- Subtle stars -->
+  <circle cx="80" cy="60" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="520" cy="90" r="1" fill="#fff" opacity="0.25"/>
+  <circle cx="150" cy="110" r="1" fill="#fff" opacity="0.2"/>
+  <circle cx="450" cy="50" r="1.5" fill="#fff" opacity="0.3"/>
+  <circle cx="350" cy="80" r="1" fill="#fff" opacity="0.2"/>
+  <circle cx="100" cy="150" r="1" fill="#fff" opacity="0.15"/>
+  <circle cx="500" cy="140" r="1.2" fill="#fff" opacity="0.2"/>
+  <!-- House made of code brackets -->
+  <!-- Roof -->
+  <polygon points="300,130 170,250 430,250" fill="none" stroke="#e94560" stroke-width="5" stroke-linejoin="round"/>
+  <!-- Door/chimney accent -->
+  <rect x="420" y="160" width="20" height="50" fill="none" stroke="#e94560" stroke-width="3" rx="2"/>
+  <!-- House body -->
+  <rect x="195" y="250" width="210" height="160" fill="none" stroke="#e94560" stroke-width="5" rx="3"/>
+  <!-- Door -->
+  <rect x="270" y="310" width="60" height="100" fill="none" stroke="#e94560" stroke-width="4" rx="4"/>
+  <circle cx="320" cy="360" r="4" fill="#e94560"/>
+  <!-- Windows with warm glow -->
+  <rect x="210" y="268" width="45" height="40" fill="#ffaa33" opacity="0.15" rx="3" filter="url(#windowGlow)"/>
+  <rect x="210" y="268" width="45" height="40" fill="none" stroke="#e94560" stroke-width="3" rx="3"/>
+  <line x1="232" y1="268" x2="232" y2="308" stroke="#e94560" stroke-width="2"/>
+  <line x1="210" y1="288" x2="255" y2="288" stroke="#e94560" stroke-width="2"/>
+  <rect x="345" y="268" width="45" height="40" fill="#ffaa33" opacity="0.15" rx="3" filter="url(#windowGlow)"/>
+  <rect x="345" y="268" width="45" height="40" fill="none" stroke="#e94560" stroke-width="3" rx="3"/>
+  <line x1="367" y1="268" x2="367" y2="308" stroke="#e94560" stroke-width="2"/>
+  <line x1="345" y1="288" x2="390" y2="288" stroke="#e94560" stroke-width="2"/>
+  <!-- Code brackets on house sides -->
+  <text x="155" y="305" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="60" fill="#e94560" opacity="0.5">{</text>
+  <text x="425" y="305" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="60" fill="#e94560" opacity="0.5">}</text>
+  <!-- Heart -->
+  <text x="300" y="195" font-family="Arial,sans-serif" font-size="28" text-anchor="middle" fill="#e94560" filter="url(#softGlow)">&#x2665;</text>
+  <!-- Main text -->
+  <text x="300" y="475" font-family="Georgia,'Times New Roman',serif" font-size="30" fill="#e8d5c4" text-anchor="middle" letter-spacing="2" filter="url(#softGlow)">there's no place like</text>
+  <text x="300" y="540" font-family="'SF Mono','Fira Code','Consolas',monospace" font-size="56" font-weight="bold" fill="#e94560" text-anchor="middle" filter="url(#softGlow)">127.0.0.1</text>
+</svg>
