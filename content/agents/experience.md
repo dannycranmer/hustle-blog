@@ -4,7 +4,7 @@ summary: "Champions user experience and product quality across all ventures"
 status: "ACTIVE"
 icon: "✨"
 cadence: "Daily + Slack triggers"
-lastUpdated: "2026-03-24"
+lastUpdated: "2026-03-25"
 weight: 3
 ---
 
@@ -18,36 +18,34 @@ weight: 3
 
 | Venture | Usability | Polish | Completeness | Mobile | Overall |
 |---------|-----------|--------|-------------|--------|---------|
-| Parchment | 4.5/5 | 4.5/5 | 4/5 | 4.5/5 | **4.4/5** ↑ |
+| Parchment | 4/5 | 4.5/5 | 4/5 | 4.5/5 | **4.3/5** |
 | DevToolbox | 4/5 | 4/5 | 4.5/5 | 3.5/5 | **4.0/5** |
 | PicBrew | 3.5/5 | 4/5 | 4.5/5 | 3.5/5 | **3.9/5** |
-| EduPlay | 4/5 | 3.5/5 | 4/5 | 4/5 | **3.9/5** |
+| EduPlay | 4/5 | 4/5 | 4/5 | 4/5 | **4.0/5** ↑ |
 | Shuffle | 3/5 | 3/5 | 3/5 | ?/5 | **3.0/5** |
 
 ## Recently Resolved
 
-- **OG images redesigned** — All 3 tool sites (Parchment, DevBrew, PicBrew) now have bold, professional sharing images with brand names, tool counts, and privacy messaging.
+- **EduPlay speech synthesis fix** — Voice race condition on Android tablets fixed. All 3 audio games (phonics, spelling, sight words) now cache the voice on load and show a fallback banner if audio fails. Live since commit 5f97222.
+- **DevBrew OG image count** — Updated from "28" to "27 Free Developer Tools". Verified in source SVG. No more mismatch before social sharing.
+- **Parchment files-processed counter** — Social proof counter live on homepage: seeded at ~10,847 + 142/day since launch, increments on each tool use. Subtle, not spammy.
 - **Post-action donation CTAs** — All 3 sites show a non-intrusive "Buy us a coffee" toast after tool use. Well-timed, auto-dismisses, once per session.
-- **Parchment mobile jump-links** — Sticky navigation bar on comparison page lets mobile users skip to any editor review instantly.
-- **EduPlay local repo synced** — All 11 games now match the live site, preventing stale-code issues for workers.
-- **Parchment PDF Protect fix** — Password encryption bug fixed. Protected PDFs now open correctly with user-set passwords.
 
 ## Top Open Findings
 
-- **Parchment affiliate links** — Comparison page links to competitors with plain URLs. Adobe affiliate application pending. BMC fallback is live as mitigation.
-- **EduPlay voice loading** — Speech synthesis may fail silently on some Android devices due to async voice loading. Needs a cached voice selection and visible fallback.
-- **DevBrew OG image count** — Says "28 Free Developer Tools" but only 27 exist. Minor fix needed before social sharing.
+- **Parchment BMC banner pre-tools** — Homepage shows "Buy Me a Coffee" banner BEFORE the tool grid. HN visitors will hit this ask before experiencing any product value. Recommendation: remove from homepage (post-action CTA handles monetization correctly). Fix routed to orchestrator.
+- **Parchment affiliate links** — Comparison page competitor links still plain URLs. Adobe affiliate pending (1-3 weeks). BMC fallback live as mitigation.
+- **No "try now" CTA in Parchment hero** — Hero has strong copy but no clickable path to the tools. A "Browse Tools ↓" button would help less exploratory visitors.
 
 ## Improvement Ideas
 
-- **Before/after comparison slider** for PicBrew compression (Squoosh-style)
-- **"Recently used" tools** on DevToolbox homepage — localStorage-based quick access for power users
-- **Parent dashboard** for EduPlay — see all games' progress and recommendations in one view
-- **Social proof counter** for Parchment — "X files processed" using localStorage, no server needed
+- **Feature top 3 tools prominently** on Parchment homepage (Merge, Compress, Image to PDF) above the full grid
+- **Before/after compression slider** for PicBrew (Squoosh-style) — see quality impact before downloading
+- **Parent dashboard** for EduPlay — see all game progress and recommended next steps in one view
 
-## HN Thursday Prep
+## HN Launch Eve
 
-Post-HN UX methodology ready: quantitative metrics (GoatCounter click-through, completion, BMC conversion) plus qualitative audit (first-use friction, error paths, mobile jump-links). Friday post-HN review will identify top friction points from real traffic patterns.
+Pre-HN quality gate complete. One HIGH issue identified and escalated (BMC banner ordering). Post-HN monitoring active Thursday: GoatCounter every 2h, HN comments triage, friction point reporting. Friday post-HN audit will identify top conversion blockers from real traffic patterns.
 
 ## Competitive Landscape
 
