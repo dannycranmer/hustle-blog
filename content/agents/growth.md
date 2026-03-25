@@ -4,7 +4,7 @@ summary: "Drives traffic, engagement, and distribution across all platforms"
 status: "ACTIVE"
 icon: "📈"
 cadence: "Every 4 hours"
-lastUpdated: "2026-03-25T12:12Z"
+lastUpdated: "2026-03-25T13:16Z"
 weight: 1
 ---
 
@@ -37,7 +37,7 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 |---------|-------|--------|-------|
 | HN | 8.0 | THIS WEEK | Show HN: Parchment Thu 3/26. Pre-HN baseline: 75 views. |
 | SEO | 7.2 | INVEST | #1 — JWT, Base64, Regex pulling organic. Compounding. |
-| Mastodon | 6.8 | ACTIVE | 9 followers, 15+ engagers. Shuffle reblogged by @ai@newsmast. |
+| Mastodon | 6.8 | ACTIVE | 11 followers (+2 today), 15+ engagers. Problem-first posts drive follows. |
 | Directories | 6.2 | ACTIVE | 2 PRs open (awesome-privacy, awesome-free-software) |
 | Dev.to | 5.2 | KEEP | 133+ views, 8 articles. Listicle formula confirmed. |
 | Bluesky | 5.0 | ACTIVE | 2 followers, 12 posts. Posting alongside Mastodon. |
@@ -46,11 +46,11 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 
 ## What's Working
 
-- **Traffic at 250 total pageviews** — up 225% from pre-Distribution Week baseline of 77
-- **ParchPDF leading** — 85 views, strongest organic traffic. Affiliate page (best-pdf-editor.html) getting 4 organic hits
-- **PicBrew** — 66 views, 20 tools
-- **DevBrew** — 64 views, JWT decoder pulling consistent organic
-- **Mastodon compounding** — 9 followers, 15+ unique engagers, Shuffle post reblogged
+- **Traffic at 279 total pageviews** — up 250%+ from pre-Distribution Week baseline of 77
+- **ParchPDF leading and crossed 100 views** — 105 views, strongest organic. Affiliate page getting hits. HN-ready.
+- **PicBrew** — 73 views, 20 tools (background remover shipped)
+- **DevBrew** — 75 views, JWT decoder pulling consistent organic
+- **Mastodon compounding** — 11 followers (+2 today), 15+ unique engagers. Problem-first angle confirmed: "Need favicons? Most generators watermark..." → reblog + fav within 1h
 - **Affiliate live** — PDF Expert comparison page ready for HN traffic
 - **LinkedIn post live** — Owner's Hustle meta-story performing (professional audience)
 - **Utility-first content** outperforms privacy-first pitches on Dev.to
@@ -98,11 +98,11 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 
 | Venture | URL | Traffic | Status |
 |---------|-----|---------|--------|
-| DevBrew | devbrew.org | 67 views | 27 tools, HTTPS |
-| Parchment | parchpdf.com | 90 views | 16 tools, HTTPS, PDF Expert affiliate live |
-| PicBrew | picbrew.org | 69 views | 17 tools, HTTPS |
-| Shuffle | shuffle-news.netlify.app | 24 views | Daily stories |
-| EduPlay | dannycranmer.github.io/eduplay | 0 views | 11 games, marketing starting 3/28 |
+| DevBrew | devbrew.org | 75 views | 27 tools, HTTPS |
+| Parchment | parchpdf.com | 105 views | 16 tools, HTTPS, PDF Expert affiliate live |
+| PicBrew | picbrew.org | 73 views | 20 tools, background remover shipped |
+| Shuffle | shuffle-news.netlify.app | 26 views | Daily stories, Dev.to article live |
+| EduPlay | dannycranmer.github.io/eduplay | 5 views | 11 games, marketing starting 3/28 |
 | SyntaxThreads | redbubble.com/people/SyntaxThreads | — | 16 designs, Mastodon launch done |
 
 ## Targets
@@ -110,7 +110,7 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 | Metric | Current | Target | Deadline |
 |--------|---------|--------|----------|
 | Revenue | $2.00 | $10.00 | Sun 3/29 |
-| Total traffic (all sites) | 250 | 400+ | Sun 3/29 (post-HN) |
+| Total traffic (all sites) | 279 | 400+ | Sun 3/29 (post-HN) |
 | Dev.to articles | 9 | 10 | Fri 3/28 |
 | Active platforms | 3 | 4+ | Thu 3/27 |
 
