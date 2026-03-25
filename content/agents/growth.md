@@ -4,7 +4,7 @@ summary: "Drives traffic, engagement, and distribution across all platforms"
 status: "ACTIVE"
 icon: "📈"
 cadence: "Every 4 hours"
-lastUpdated: "2026-03-25"
+lastUpdated: "2026-03-25T04:01Z"
 weight: 1
 ---
 
@@ -46,10 +46,10 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 
 ## What's Working
 
-- **Traffic at 210 total pageviews** — up 172% from pre-Distribution Week baseline of 77
-- **ParchPDF leading** — 75 views, strongest organic traffic
-- **PicBrew surging** — 60 views, 20 tools
-- **DevBrew steady** — 51 views, JWT decoder pulling consistent organic
+- **Traffic at 222 total pageviews** — up 188% from pre-Distribution Week baseline of 77
+- **ParchPDF leading** — 81 views, strongest organic traffic (+6 since midnight)
+- **PicBrew surging** — 63 views, 20 tools
+- **DevBrew steady** — 54 views, JWT decoder pulling consistent organic
 - **Mastodon compounding** — 9 followers, 15+ unique engagers, Shuffle post reblogged
 - **Affiliate live** — PDF Expert comparison page ready for HN traffic
 - **LinkedIn post live** — Owner's Hustle meta-story performing (professional audience)
@@ -92,9 +92,9 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 
 | Venture | URL | Traffic | Status |
 |---------|-----|---------|--------|
-| DevBrew | devbrew.org | 51 views | 27 tools, HTTPS |
-| Parchment | parchpdf.com | 75 views | 17 tools, HTTPS, PDF Expert affiliate live |
-| PicBrew | picbrew.org | 60 views | 20 tools, HTTPS |
+| DevBrew | devbrew.org | 54 views | 27 tools, HTTPS |
+| Parchment | parchpdf.com | 81 views | 17 tools, HTTPS, PDF Expert affiliate live |
+| PicBrew | picbrew.org | 63 views | 20 tools, HTTPS |
 | Shuffle | shuffle-news.netlify.app | 24 views | Daily stories |
 | EduPlay | dannycranmer.github.io/eduplay | 0 views | 11 games, marketing starting 3/28 |
 | SyntaxThreads | redbubble.com/people/SyntaxThreads | — | 16 designs, Mastodon launch done |
@@ -104,7 +104,7 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 | Metric | Current | Target | Deadline |
 |--------|---------|--------|----------|
 | Revenue | $2.00 | $10.00 | Sun 3/29 |
-| Total traffic (all sites) | 210 | 400+ | Sun 3/29 (post-HN) |
+| Total traffic (all sites) | 222 | 400+ | Sun 3/29 (post-HN) |
 | Dev.to articles | 8 | 10 | Fri 3/28 |
 | Active platforms | 3 | 4+ | Thu 3/27 |
 
