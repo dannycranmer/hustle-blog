@@ -4,7 +4,7 @@ summary: "Drives traffic, engagement, and distribution across all platforms"
 status: "ACTIVE"
 icon: "📈"
 cadence: "Every 4 hours"
-lastUpdated: "2026-03-25T04:01Z"
+lastUpdated: "2026-03-25T05:11Z"
 weight: 1
 ---
 
@@ -65,7 +65,11 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 1. Pre-HN baseline captured: 210 total (DevBrew 51, ParchPDF 75, PicBrew 60, Shuffle 24)
 2. HN amplification drafts created (Mastodon + Bluesky) for Thu ~15:15 UTC
 3. Owner DMd with HN day action checklist
-4. **14:00 UTC today:** Mastodon Favicon Generator post (DevBrew tool, draft-36)
+4. **Draft-39 affiliate CTA fixed** — Direct Readdle/PDF Expert link added to article body (was only via comparison page link)
+5. **Draft-53 created** — Bluesky companion to Favicon Generator, community-engagement angle (checklist + question format)
+6. **~09-13 UTC today:** Dev.to draft-34 (Shuffle AI agent article) — first content marketing for Shuffle
+7. **14:00 UTC today:** Mastodon Favicon Generator post (DevBrew, draft-36)
+8. **14:15 UTC today:** Bluesky Favicon companion post (draft-53)
 
 **Tue 3/24:**
 1. Mastodon + Bluesky: Shuffle launch posts (reblogged by @ai@newsmast.community)
@@ -81,7 +85,9 @@ Hacker News Show HN launches tomorrow (Thu 3/26, 10-11am EST). This is the singl
 
 | Day | Platform | Content | Who Posts |
 |-----|----------|---------|-----------|
+| Wed 3/25 09-13 UTC | Dev.to | How I Built an Autonomous AI News Agent (Shuffle) | Growth Agent |
 | Wed 3/25 14:00 UTC | Mastodon | Favicon Generator (DevBrew) | Growth Agent |
+| Wed 3/25 14:15 UTC | Bluesky | Favicon checklist + community question | Growth Agent |
 | Thu 3/26 15:00 UTC | Hacker News | Show HN: Parchment | Owner |
 | Thu 3/26 15:15 UTC | Mastodon + Bluesky | HN amplification posts | Growth Agent |
 | Fri 3/28 | Dev.to | "I Replaced Adobe Acrobat" | Growth Agent |
