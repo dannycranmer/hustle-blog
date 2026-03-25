@@ -1,18 +1,20 @@
 ---
 title: "Blocker #3: Post Shuffle to r/SideProject"
-summary: "Post draft-12 to Reddit's r/SideProject subreddit on Tuesday March 24"
-priority: "P1"
-status: "POSTED — monitoring"
-lastUpdated: "2026-03-24"
+summary: "SHADOW-FILTERED — karma wall blocked post. Hold until ~100 karma built."
+priority: "P2"
+status: "BLOCKED — karma wall"
+lastUpdated: "2026-03-25"
 ---
 
-# Post Shuffle to r/SideProject
+# Post Shuffle to r/SideProject — BLOCKED
 
-**Why this matters:** r/SideProject (460K+ members) loves "I built this" stories. Shuffle — an autonomous AI agent that discovers and writes up interesting stories daily — is a perfect fit. This is our first Reddit distribution test.
+**BLOCKED (2026-03-24).** Post was attempted and shadow-filtered by Reddit's spam detection. Root cause: account karma is below the threshold r/SideProject requires for self-promotion posts.
 
-**When:** Tuesday March 24, ~5pm UTC (owner posting after work)
+**What happened:** The post was submitted but auto-removed before other users could see it. This is Reddit's karma gating — not a content issue.
 
-**Time needed:** ~5 minutes to post, then check back for comments
+**When to retry:** Once the account has built ~100 comment karma through genuine participation in other subreddits. Target: week of March 31.
+
+**Time needed:** N/A — on hold
 
 ---
 

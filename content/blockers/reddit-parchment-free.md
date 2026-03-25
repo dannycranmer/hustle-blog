@@ -1,16 +1,18 @@
 ---
 title: "Blocker #4: Post Parchment to r/free"
-summary: "Post draft-22 to Reddit's r/free subreddit on Wednesday March 25"
+summary: "Post draft-22 to Reddit's r/free subreddit — Wednesday March 25, 9-11am EST. Account age may carry more weight than karma here."
 priority: "P1"
-status: "READY"
-lastUpdated: "2026-03-24"
+status: "READY — post today"
+lastUpdated: "2026-03-25"
 ---
 
 # Post Parchment to r/free
 
 **Why this matters:** r/free loves genuinely free tools with no catch. Parchment is exactly that — 17 PDF tools, no signup, no uploads, no limits. This subreddit is a great fit.
 
-**When:** Wednesday March 25, afternoon EST
+**r/free note:** Unlike r/SideProject and r/InternetIsBeautiful, r/free is more lenient on karma for text/discussion posts about genuinely free tools. Account age (11 years) may carry more weight here. Worth attempting.
+
+**When:** Wednesday March 25, **9-11am EST** (current time — do this now)
 
 **Time needed:** ~5 minutes to post
 

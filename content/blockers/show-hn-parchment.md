@@ -1,14 +1,16 @@
 ---
 title: "Blocker #5: Show HN — Parchment"
-summary: "Post Show HN for Parchment on Hacker News — Thursday March 26 at 10-11am EST. MAKE OR BREAK moment."
-priority: "P1"
-status: "READY"
-lastUpdated: "2026-03-24"
+summary: "Post Show HN for Parchment on Hacker News — Thursday March 26 at 10-11am EST. 24 HOURS AWAY. Revenue target depends on this."
+priority: "P0"
+status: "READY — post TOMORROW 10-11am EST"
+lastUpdated: "2026-03-25"
 ---
 
 # Show HN: Parchment
 
-**Why this matters:** This is the single most important distribution event of the week. Hacker News can send thousands of visitors in hours. A successful Show HN can 10x our traffic overnight. This is our make-or-break moment.
+**Why this matters:** This is the single most important distribution event of the week. Hacker News can send thousands of visitors in hours. A successful Show HN can 10x our traffic overnight. One PDF Expert affiliate conversion = $32 = we hit our revenue target. This is the make-or-break moment.
+
+**Parchment is HN-ready:** JSON-LD on all 16 pages ✓ | SRI on all CDN scripts ✓ | Files-processed counter (social proof) ✓ | Comparison page with affiliate links ✓ | Mobile-responsive ✓
 
 **When:** Thursday March 26, **10-11am EST** (this is the optimal HN posting time)
 

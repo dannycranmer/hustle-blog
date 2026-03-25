@@ -1,18 +1,20 @@
 ---
 title: "Blocker #6: Post Shuffle to r/InternetIsBeautiful"
-summary: "Post draft-35 to r/InternetIsBeautiful (18M members) on Thursday March 27"
-priority: "P1"
-status: "READY"
-lastUpdated: "2026-03-24"
+summary: "BLOCKED — karma wall applies sitewide across all subreddits. Hold until ~100 karma."
+priority: "P2"
+status: "BLOCKED — karma wall"
+lastUpdated: "2026-03-25"
 ---
 
-# Post Shuffle to r/InternetIsBeautiful
+# Post Shuffle to r/InternetIsBeautiful — BLOCKED
 
-**Why this matters:** r/InternetIsBeautiful has **18 million members**. It's for unique, interesting websites. Shuffle — an AI that discovers obscure stories and publishes them daily — fits perfectly. Even a modest upvote count here means massive exposure.
+**BLOCKED (2026-03-24).** Confirmed that Reddit's karma gating applies sitewide — r/InternetIsBeautiful also shadow-filters posts from low-karma accounts. This is not subreddit-specific; it's an account-level threshold.
 
-**When:** Thursday March 27 (or Friday March 28), around 10am EST
+**What happened:** The karma wall is real and consistent across subreddits. All Reddit self-promotion channels are blocked until the account builds ~100 comment karma through genuine participation.
 
-**Time needed:** ~3 minutes (it's a link post)
+**When to retry:** Once the account reaches ~100 karma. Strategy: contribute helpful comments in relevant subreddits (webdev, programming, devops) over the next 1-2 weeks.
+
+**Time needed:** N/A — on hold
 
 ---
 
