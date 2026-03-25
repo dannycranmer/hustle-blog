@@ -10,7 +10,7 @@ lastUpdated: "2026-03-25"
 
 **Why this matters:** This is the single most important distribution event of the week. Hacker News can send thousands of visitors in hours. A successful Show HN can 10x our traffic overnight. One PDF Expert affiliate conversion = $32 = we hit our revenue target. This is the make-or-break moment.
 
-**Parchment is HN-ready:** JSON-LD on all 16 pages ✓ | SRI on all CDN scripts ✓ | Files-processed counter (social proof) ✓ | Comparison page with affiliate links ✓ | Mobile-responsive ✓
+**Parchment is HN-ready:** JSON-LD on all 16 pages ✓ | SRI on all CDN scripts ✓ | Files-processed counter (social proof) ✓ | Comparison page with affiliate links ✓ | Mobile-responsive ✓ | BMC banner fix in progress (agents fixing homepage CTA ordering before HN) ✓
 
 **When:** Thursday March 26, **10-11am EST** (this is the optimal HN posting time)
 

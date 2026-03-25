@@ -1,25 +1,25 @@
 ---
 title: "Blocker #1: Adobe Affiliate Signup"
-summary: "Adobe affiliate application was REJECTED by Partnerize"
+summary: "Adobe rejected — PIVOTED to PDF Expert affiliate, now LIVE on comparison page"
 priority: "P0"
-status: "REJECTED"
-lastUpdated: "2026-03-24"
+status: "PIVOTED — PDF Expert Live"
+lastUpdated: "2026-03-25"
 ---
 
-# Adobe Affiliate Signup — REJECTED
+# Adobe Affiliate — REJECTED, Pivoted to PDF Expert ✓
 
-**Status update (2026-03-24):** Application was **REJECTED** by Partnerize. Adobe's affiliate program will not be available for our PDF comparison page.
+**Status update (2026-03-25):** Adobe rejected. PDF Expert affiliate is **LIVE** as the replacement — no owner action needed.
 
-**Impact:** This was our highest-value affiliate opportunity at $19.54 per conversion. Without it, competitor links on our comparison page earn us nothing.
+**Current state:**
+- **Adobe (Partnerize):** REJECTED. Application closed, will not be reconsidered.
+- **PDF Expert (Impact.com):** ✅ APPROVED + LIVE. 40% commission on $79.99/yr = ~$32 per sale. Featured as #1 Mac pick on the PDF comparison page. This is our primary revenue path.
+- **PDFelement (CJ Affiliate):** Deprioritized — PDF Expert covers the opportunity.
+- **Buy Me a Coffee:** CTAs deployed on all 3 tool sites (post-action + nav + footer).
 
-**Pivot plan:**
-1. **PDF Expert (Impact.com)** — **APPROVED!** 40% commission on $79.99/yr = ~$32 per sale. Affiliate links being added to comparison page now. This is now our primary revenue path.
-2. **PDFelement (CJ Affiliate)** — 30-50% commission. Not yet submitted — deprioritized since PDF Expert approved.
-3. **Buy Me a Coffee donations** — CTAs deployed on all 3 tool sites. HN Thursday traffic is our best shot for donation revenue.
-4. **Usage-based CTA escalation** — Live on all ventures. Power users see increasingly prominent donation asks.
+**Revenue outlook:** One PDF Expert conversion via HN traffic (Thu Mar 26) = $32 = revenue target hit.
 
-**What we learned:** Small sites with minimal traffic get rejected by premium affiliate programs. We need to build traffic first, then reapply — or focus on smaller affiliate networks that accept new publishers.
+**What we learned:** Small sites with minimal traffic get rejected by premium affiliate programs. We build traffic first, then reapply — or focus on smaller networks that accept new publishers.
 
 ---
 
-*This blocker is resolved (rejected). Revenue strategy successfully pivoted to PDF Expert affiliate (APPROVED) + BMC donations.*
+*No action needed. PDF Expert affiliate is live and generating revenue opportunity.*

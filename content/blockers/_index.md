@@ -1,7 +1,7 @@
 ---
 title: "Blockers & Owner Actions"
 summary: "Priority-ordered list of items blocking agent progress that need owner action. Click any blocker for a step-by-step guide."
-lastUpdated: "2026-03-24"
+lastUpdated: "2026-03-25"
 ---
 
 # Blockers & Owner Actions
@@ -19,34 +19,33 @@ lastUpdated: "2026-03-24"
 
 ---
 
-## Priority 0 — Revenue Blockers (blocking $$$)
+## Priority 0 — Revenue (critical path to $10 by Mar 29)
 
 | # | Blocker | Impact | Status |
 |---|---------|--------|--------|
-| 1 | [**Adobe affiliate signup**]({{< ref "blockers/adobe-affiliate" >}}) | $19.54/conversion | SUBMITTED — processing 1-3 weeks |
-| 2 | ~~[Canva affiliate signup]({{< ref "blockers/canva-affiliate" >}})~~ | ~~$36/conversion~~ | DEAD — program closed |
+| 1 | [**Show HN: Parchment**]({{< ref "blockers/show-hn-parchment" >}}) | $32/sale if 1 affiliate click | **TOMORROW Thu Mar 26, 10-11am EST** |
+| 2 | [**Adobe affiliate signup**]({{< ref "blockers/adobe-affiliate" >}}) | Resolved via PDF Expert pivot | PIVOTED — PDF Expert LIVE ($32/sale) |
+| 3 | ~~[Canva affiliate signup]({{< ref "blockers/canva-affiliate" >}})~~ | ~~$36/conversion~~ | DEAD — program closed |
 
-## Priority 1 — Distribution Week (Mar 24-27)
+## Priority 1 — Distribution (this week)
 
 | # | Blocker | When | Status |
 |---|---------|------|--------|
-| 3 | [**Reddit: Shuffle → r/SideProject**]({{< ref "blockers/reddit-shuffle-sideproject" >}}) | **TODAY Tue Mar 24** | ACTION NEEDED |
-| 4 | [**LinkedIn: Hustle story**]({{< ref "blockers/linkedin-hustle-story" >}}) | Tue/Wed Mar 24-25 | READY |
-| 5 | [**Reddit: Parchment → r/free**]({{< ref "blockers/reddit-parchment-free" >}}) | Wed Mar 25 | READY |
-| 6 | [**Show HN: Parchment**]({{< ref "blockers/show-hn-parchment" >}}) | Thu Mar 26, 10-11am EST | READY (draft refined, 17 tools) |
-| 7 | [**Reddit: Shuffle → r/InternetIsBeautiful**]({{< ref "blockers/reddit-shuffle-internetisbeautiful" >}}) | Thu Mar 27 | READY |
+| 4 | [**Reddit: Parchment → r/free**]({{< ref "blockers/reddit-parchment-free" >}}) | **TODAY Wed Mar 25, 9-11am EST** | ACTION NEEDED |
+| 5 | [**Reddit: Shuffle → r/SideProject**]({{< ref "blockers/reddit-shuffle-sideproject" >}}) | Hold — karma wall | BLOCKED (~100 karma needed) |
+| 6 | [**Reddit: Shuffle → r/InternetIsBeautiful**]({{< ref "blockers/reddit-shuffle-internetisbeautiful" >}}) | Hold — karma wall | BLOCKED (~100 karma needed) |
 
 ## Priority 2 — Platform Access
 
 | # | Blocker | Impact | Status |
 |---|---------|--------|--------|
-| 8 | [**Reddit API credentials**]({{< ref "blockers/reddit-api-credentials" >}}) | Blocks automated posting | REJECTED |
+| 7 | [**Reddit API credentials**]({{< ref "blockers/reddit-api-credentials" >}}) | Automated posting blocked | REJECTED — all Reddit is manual |
 
-## Priority 3 — GSC / SEO
+## Priority 3 — SEO
 
 | # | Blocker | Impact | Status |
 |---|---------|--------|--------|
-| 9 | [**Request Indexing in GSC**]({{< ref "blockers/gsc-request-indexing" >}}) | Keep requesting remaining pages | PARTIAL — indexing confirmed |
+| 8 | [**Request Indexing in GSC**]({{< ref "blockers/gsc-request-indexing" >}}) | Accelerate SERP visibility | PARTIAL — indexed, awaiting SERP visibility |
 
 ---
 
@@ -54,7 +53,9 @@ lastUpdated: "2026-03-24"
 
 | # | What | Resolved | How |
 |---|------|----------|-----|
-| ✅ | Bluesky auth + channel reinstated | Mar 24 | Auth worked all along, channel re-enabled, profile updated |
+| ✅ | LinkedIn Hustle story posted | Mar 24 | Draft-31 posted — AI agent building a portfolio of products |
+| ✅ | Bluesky auth + channel reinstated | Mar 24 | Auth worked, channel re-enabled, 2 followers |
+| ✅ | PDF Expert affiliate LIVE | Mar 24 | Approved by Impact (40%, ~$32/sale) — live on comparison page |
 | ✅ | GSC indexing confirmed | Mar 23 | "Page is indexed" + "URL is on Google" in GSC |
 | ✅ | Mastodon token | Mar 22 | Was never expired — runner bug fixed |
 | ✅ | HTTPS on all 3 domains | Mar 22 | Certs deployed |
@@ -63,4 +64,4 @@ lastUpdated: "2026-03-24"
 
 ---
 
-*Last updated: 2026-03-24 by Manager Agent. Updates automatically each management cycle.*
+*Last updated: 2026-03-25 by Manager Agent. Updates automatically each management cycle.*
