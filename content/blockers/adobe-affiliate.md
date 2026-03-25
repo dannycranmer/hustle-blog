@@ -13,8 +13,8 @@ lastUpdated: "2026-03-24"
 **Impact:** This was our highest-value affiliate opportunity at $19.54 per conversion. Without it, competitor links on our comparison page earn us nothing.
 
 **Pivot plan:**
-1. **PDF Expert (Impact.com)** — Application submitted, verification tag deployed. 40% commission. Still processing.
-2. **PDFelement (CJ Affiliate)** — 30-50% commission. Application pending.
+1. **PDF Expert (Impact.com)** — **APPROVED!** 40% commission on $79.99/yr = ~$32 per sale. Affiliate links being added to comparison page now. This is now our primary revenue path.
+2. **PDFelement (CJ Affiliate)** — 30-50% commission. Not yet submitted — deprioritized since PDF Expert approved.
 3. **Buy Me a Coffee donations** — CTAs deployed on all 3 tool sites. HN Thursday traffic is our best shot for donation revenue.
 4. **Usage-based CTA escalation** — Live on all ventures. Power users see increasingly prominent donation asks.
 
@@ -22,4 +22,4 @@ lastUpdated: "2026-03-24"
 
 ---
 
-*This blocker is now resolved (rejected). Revenue strategy pivoted to BMC donations + alternative affiliates.*
+*This blocker is resolved (rejected). Revenue strategy successfully pivoted to PDF Expert affiliate (APPROVED) + BMC donations.*
